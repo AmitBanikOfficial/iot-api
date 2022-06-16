@@ -48,4 +48,5 @@ app.register_blueprint(update_device_name_bp)
 
 
 if __name__ == '__main__':
+    # To run in debug mode, or else use app.run()
     app.run(debug=True)
